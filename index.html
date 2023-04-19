@@ -8,13 +8,23 @@
   <link href="assets/reset.css" rel="stylesheet">
   <link href="assets/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <div class="window">
-        <div class="outer-border"></div>
-        <div class="inner-border"></div>
-        <div class="window-handle"></div>
-        <div class="result">You should <br> sit on the <span class="italics">left side</span>of the plane.</div>
+  <div class="contents">
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Flight Number &#x2193</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">VY8032</a>
+      <a href="#">EK203</a>
+      <a href="#">6E301</a>
     </div>
+  </div>
+  <div class="window">
+    <div class="rectangle1"></div>
+    <div class="rectangle2"></div>
+    <div class="defaulttext">You should sit on the _________ of the plane.</div>
+  </div>
+</div>
 </body>
 </html>
