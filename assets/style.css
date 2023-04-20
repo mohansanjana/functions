@@ -43,6 +43,10 @@ body{
    position: relative;
    display: inline-block;
    align-content: center;
+   justify-content: center;
+   z-index: 99;
+   width: 100vw;
+
  }
  
  /* Dropdown Content (Hidden by Default) */
@@ -51,7 +55,7 @@ body{
    position: absolute;
    background-color: #6129FF;
    width: 100vw;
-   z-index: 1;
+  
  }
  
  /* Links inside the dropdown */
@@ -61,6 +65,7 @@ body{
    text-decoration: none;
    display: flex;
     height: 12vh;
+    width: 100vw;
     box-sizing: border-box;
     border-bottom: 1px solid #9A89FF;
     flex-direction: column;
@@ -76,7 +81,7 @@ body{
  /* color of dropdown links on hover */
  .dropdown-content a:hover {background-color: #ddd;}
  
- /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+ /* Show the dropdown menu */
  .show {display:block;}
 
 

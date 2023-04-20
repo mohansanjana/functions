@@ -1,0 +1,129 @@
+body{
+    background-color:#6129FF;
+
+ }
+ 
+ .contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 43vh;
+ }
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: none;
+    color: #cfbdff;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 95vw;
+    height: 10vh;
+    align-content: centre;
+ 
+    box-sizing: border-box;
+    border: 0.53px solid #FFFFFF;
+    border-radius: 42px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: none;
+  }
+  
+  /* needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    z-index: 99;
+    width: 100vw;
+  }
+  
+  /* dropdown content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6129FF;
+    width: 100vw;
+   
+  }
+  
+  /* links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+     height: 12vh;
+     box-sizing: border-box;
+     border-bottom: 1px solid #9A89FF;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: flex-start;
+ 
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+ 
+  /* color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* dropdown menu */
+  .show {display:block;}
+ 
+ 
+  /*Window*/
+ 
+  .window{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+ 
+  .rectangle1{
+    position: absolute;
+    width: 95vw;
+    height: 80vh;
+   
+ 
+    background: #00FFA3;
+    border: 3.98901px solid #000000;
+    box-shadow: 5.98352px 7.31319px 4.65385px #3B1C95;
+    border-radius: 132px;
+  }
+ 
+  .rectangle2{
+    position: absolute;
+    width: 85vw;
+    height: 75vh;
+    
+    background: #FFFFFF;
+    border: 3.98901px solid #000000;
+    border-radius: 130px;
+    }
+ 
+ .defaulttext{
+    position: absolute;
+    width: 259px;
+    height: 248px;
+ 
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #3D3A3A;
+    text-align: center;
+    align-self: center;
+    }
