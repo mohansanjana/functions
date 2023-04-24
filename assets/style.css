@@ -1,4 +1,4 @@
-
+:root
 
 body{
    background-color:#6129FF;
@@ -10,8 +10,10 @@ body{
    flex-direction: column;
    align-items: center;
    padding: 0px;
-   gap: 43vh;
+   gap: 5vh;
+  
 }
+
 /* Dropdown Button */
 .dropbtn {
    background-color: none;
@@ -21,7 +23,9 @@ body{
    cursor: pointer;
    width: 95vw;
    height: 10vh;
-   align-content: centre;
+   margin-left: 2.5vw;
+   margin-top: 1.5vh;
+   
 
    box-sizing: border-box;
    border: 0.53px solid #FFFFFF;
@@ -53,6 +57,7 @@ body{
    display: none;
    position: absolute;
    width: 100vw;
+
   
  }
  
@@ -62,10 +67,10 @@ body{
    padding: 12px 16px;
    text-decoration: none;
    display: flex;
-   height: 12vh;
+   height: 14vh;
    width: 100vw;
    box-sizing: border-box;
-   border-bottom: 1px solid #d9d2ff;
+   border-bottom: 0.5px solid #bdbdbd;
    flex-direction: column;
    justify-content: space-around;
    align-items: flex-start;
@@ -76,8 +81,15 @@ body{
    font-size: 20px;
  }
 
+ .information{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2vh;
+ }
+
  /* color of dropdown links on hover */
- .dropdown-content a:hover {background-color: #ddd;}
+ .dropdown-content a:hover {background-color: rgb(19, 10, 138);}
  
  /* Show the dropdown menu */
  .show {display:block;}
@@ -93,9 +105,13 @@ body{
 
  }
 
+ .window img{
+   width: 85vw;
+ }
+ 
  .rectangle1{
    position: absolute;
-   width: 95vw;
+   width: 90vw;
    height: 80vh;
 
    border: 3.98901px solid #000000;
@@ -104,24 +120,22 @@ body{
 
  .rectangle2{
    position: absolute;
-   width: 85vw;
+   width: 80vw;
    height: 75vh;
    
-   background: #FFFFFF;
    border: 3.98901px solid #000000;
    border-radius: 130px;
    }
 
 .defaulttext{
    position: absolute;
-   width: 259px;
-   height: 248px;
+   width: 70vw;
 
    
    font-family: 'Lora';
    font-style: normal;
    font-weight: 400;
-   font-size: 40px;
+   font-size: 34px;
    color: #3D3A3A;
    align-self: center;
    }
@@ -132,7 +146,7 @@ body{
    font-family: 'Lora';
    font-style: italic;
    font-weight: 500;
-   font-size: 40px;
+   font-size: 36px;
 }
 
 /* Airport info on detail page*/
