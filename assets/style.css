@@ -2,6 +2,7 @@
 
 body{
    background-color:#6129FF;
+   height: 95vh;
   
 }
 
@@ -25,6 +26,7 @@ body{
    height: 10vh;
    margin-left: 2.5vw;
    margin-top: 1.5vh;
+   z-index: 110;
    
 
    box-sizing: border-box;
@@ -34,6 +36,11 @@ body{
    font-style: normal;
    font-weight: 400;
    font-size: 20px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
  }
  
  /* Dropdown button on hover & focus */
@@ -60,6 +67,19 @@ body{
 
   
  }
+
+ /* Button-Chevron Flexbox 
+ 
+ .FN{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }*/
+
+ .material-icons{
+   font-size: 24px;
+ }
+
  
  /* Links inside the dropdown */
  .dropdown-content a {
@@ -86,7 +106,7 @@ body{
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 2vh;
+   gap: 3vh;
  }
 
  .result{
@@ -125,7 +145,7 @@ body{
  }
 
  .window img{
-   width: 85vw;
+   width: 82vw;
  }
  
  .rectangle1{
