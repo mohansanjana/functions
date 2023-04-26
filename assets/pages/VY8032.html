@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body style="background-color:#006600;">
+<body onload=runRadio() style="background-color:#006600;">
   <div class="contents">
   <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn" style="color: #38952e;">VY8032<i class="material-icons">expand_more</i></button>
@@ -65,7 +65,7 @@
     <em class="side" style="color: #FE0000;">right side</em> of the plane.</div>
 </div>
 </div>
-<audio autoplay>
+<audio id=”myaudio” controls=”flase” autoplay=”true”>
   <source src="../pages/sound/cabin.mp3" type="audio/mpeg">
 </audio>
 </div>
