@@ -1,4 +1,4 @@
-//select window image VY8032
+//select window image 6E478
 const img = document.getElementById('images');
 
 //click event
@@ -7,11 +7,9 @@ let toggle = true;
 img.addEventListener('click', function(){
   toggle = !toggle;
   if(toggle){
-      img.src = 'img\\lisbon.png';
+      img.src = 'img\\6E478.png';
   }else{
-      img.src = 'img\\lisbon.gif';
+      img.src = 'img\\6E478.gif';
   }
 
 })
-
-

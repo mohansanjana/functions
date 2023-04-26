@@ -112,7 +112,7 @@ body{
    flex: none;
    order: 1;
    flex-grow: 0;
-   color: #FFF500;
+   color: #d9ff00;
  }
 
  /* color of dropdown links on hover */
@@ -122,6 +122,10 @@ body{
  .result1 a:hover {background-color:#035003;}
 
  .result2 a:hover {background-color:#002562;}
+
+ .result3 a:hover {background-color:#ff6f00;}
+
+ .result4 a:hover {background-color:#C30C13;}
 
  
  /* Show the dropdown menu */
@@ -190,7 +194,6 @@ video{
    84%  { transform:  translateY(0); }
    100% { transform:  translateY(0); }
 }
-
 
 
 /* DESKTOP */
@@ -360,13 +363,8 @@ video{
       flex: none;
       order: 1;
       flex-grow: 0;
-      color: #FFF500;
+      color: #d9ff00;
     }
-
-
-   
-
-    
 
 
 }
