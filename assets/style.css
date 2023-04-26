@@ -102,12 +102,7 @@ body{
    gap: 3vh;
  }
 
- .result{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
- }
+
 
  p{
    font-family: 'Lora';
@@ -122,6 +117,11 @@ body{
 
  /* color of dropdown links on hover */
  .dropdown-content a:hover {background-color: rgb(19, 10, 138);}
+
+ .result a:hover {background-color: #FFF500;}
+
+ .result1 a:hover {background-color: hsl(347, 60%, 36%);}
+
  
  /* Show the dropdown menu */
  .show {display:block;}
@@ -167,6 +167,34 @@ body{
 video{
    display: none;
 }
+
+
+.box {
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+   transform-origin: bottom;
+}
+
+.bounce-4 {
+    animation-name: bounce-4;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-4 {
+   0%   { transform:  translateY(0); }
+   10%  { transform:  translateY(0); }
+   30%  { transform:  translateY(-24px); }
+   50%  { transform:  translateY(0); }
+   57%  { transform:  translateY(-12px); }
+   84%  { transform:  translateY(0); }
+   100% { transform:  translateY(0); }
+}
+
+
+
+
+
+/* DESKTOP */
 
 
 @media (min-width: 767px) {
@@ -335,6 +363,9 @@ video{
       flex-grow: 0;
       color: #FFF500;
     }
+
+
+   
 
     
 
