@@ -64,17 +64,7 @@ body{
    display: none;
    position: absolute;
    width: 100vw;
-
-  
- }
-
- /* Button-Chevron Flexbox 
- 
- .FN{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
- }*/
+}
 
  .material-icons{
    font-size: 24px;
@@ -147,46 +137,19 @@ body{
  .window img{
    width: 82vw;
  }
- 
- .rectangle1{
-   position: absolute;
-   width: 90vw;
-   height: 80vh;
 
-   border: 3.98901px solid #000000;
-   border-radius: 132px;
+ #gif{
+   display: none;
  }
-
- .rectangle2{
-   position: absolute;
-   width: 80vw;
-   height: 75vh;
-   
-   border: 3.98901px solid #000000;
-   border-radius: 130px;
-   }
+ 
 
 .defaulttext{
-   position: absolute;
-   width: 70vw;
-
-   
-   font-family: 'Lora';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 34px;
-   color: #3D3A3A;
-   align-self: center;
+   display: none;
    }
 
 /* Side highlight on result page*/
 
-.side{
-   font-family: 'Lora';
-   font-style: italic;
-   font-weight: 500;
-   font-size: 36px;
-}
+
 
 /* Airport info on detail page*/
 
@@ -203,9 +166,170 @@ body{
 
    body{
       background-color:#6129FF;
-      height: 95vh;
+      height: 100vh;
+      overflow-y: hidden;
      
    }
+
+   .contents{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 5vh;
+   
+   }
+
+   .defaulttext{
+      display: block;
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 4vw;
+      color: #FFFFFF;
+      }
+
+   .information{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 15vw;
+
+      margin-left: 2.5vw;
+      margin-right: 2.5vw;
+   }
+
+   .side{
+      font-family: 'Lora';
+      font-style: italic;
+      font-weight: 500;
+      font-size: 4vw;
+   }
+
+   #airports{
+      display: flex;
+      flex-direction: column;
+
+      width: 50vw;
+      margin-bottom: 1vh;
+   }
+
+
+   .airports{
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1vw;
+      color: #FFFFFF;
+      text-align: right;
+   }
+
+   .window{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      flex: none;
+      order: 1;
+   
+    }
+   
+    .window img{
+      width: 30vw;
+    }
+
+    #images{
+      display: none;
+    }
+
+    #gif{
+      display: block;
+    }
+
+    .dropbtn {
+      background-color: none;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      width: 50vw;
+      height: 10vh;
+      margin-left: 2.5vw;
+      margin-top: 1.5vh;
+      margin-bottom: 1vh;
+      z-index: 110;
+      
+   
+      box-sizing: border-box;
+      border: 0.53px solid #FFFFFF;
+      border-radius: 42px;
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+   
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .dropdown-content a {
+      color: rgb(255, 255, 255);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: flex;
+      height: 14vh;
+      width: 50vw;
+      box-sizing: border-box;
+      border-bottom: 0.5px solid #bdbdbd;
+      
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+     /* Dropdown Content (Hidden by Default) */
+   .dropdown-content {
+      margin-left: 2.5vw;
+      position: absolute;
+      width: 50vw;
+      border: 0.5px solid #FFFFFF;
+      border-radius: 40.5px;
+      height: 85vh;
+      overflow-y: scroll;
+     
+   }
+
+   .dropdown {
+      position: relative;
+      display: inline-block;
+      align-content: center;
+      justify-content: center;
+      z-index: 99;
+   
+   
+    }
+
+    p{
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      color: #FFF500;
+    }
+
+    
 
 
 }
