@@ -18,8 +18,8 @@ img.addEventListener('click', function(){
 function runRadio() {
   var audio = document.getElementById('myaudio');
   
-  audio.volume = 1;
+  audio.volume = 100;
   audio.src = 'sound\\cabin.mp3';
-  audio.preload = none;
+  audio.preload = 'none'
   audio.play();
 }
