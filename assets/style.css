@@ -116,11 +116,12 @@ body{
  }
 
  /* color of dropdown links on hover */
- .dropdown-content a:hover {background-color: rgb(19, 10, 138);}
 
- .result a:hover {background-color: #FFF500;}
+ .result a:hover {background-color: #4912E7;}
 
- .result1 a:hover {background-color: hsl(347, 60%, 36%);}
+ .result1 a:hover {background-color:#035003;}
+
+ .result2 a:hover {background-color:#002562;}
 
  
  /* Show the dropdown menu */
